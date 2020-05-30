@@ -1,0 +1,50 @@
+ATmega328P:
+
+Port B0 -> N/A
+Port B1 -> Piezo Buzzer + 1k resistor
+Port B2 -> MCP23S17 Slave Select
+Port B3 -> MCP23S17 Slave IN
+Port B4 -> MCP23S17 Slave OUT
+Port B5 -> MCP23S17 SCK
+
+Port C0 -> ADC Conversion
+Port C1 -> LED + 1K resistor
+Port C2 -> LED + 1K resistor
+Port C3 -> LED + 1K resistor
+Port C4 -> N/A
+Port C5 -> N/A
+
+Port D0 -> N/A
+Port D1 -> N/A
+Port D2 -> MCP23S17 INTA
+Port D3 -> N/A
+Port D4 -> N/A
+Port D5 -> Push Button
+Port D6 -> Push Button
+Port D7 -> Push Button
+
+MCP23S17:
+GPA7 -> N/A
+GPA6 -> Push Button
+GPA5 -> Push Button
+GPA4 -> Push Button
+GPA3 -> N/A
+GPA2 -> LED + 1K resistor
+GPA1 -> LED + 1K resistor
+GPA0 -> LED + 1K resistor
+
+GPB7 -> N/A
+GPB6 -> N/A
+GPB5 -> N/A
+GPB4 -> N/A
+GPB3 -> N/A
+GPB2 -> N/A
+GPB1 -> N/A
+GPB0 -> N/A
+
+INTA -> ATMega328P Port B2
+INTB -> N/A
+
+A2 -> Ground
+A1 -> Ground
+A0 -> Ground
